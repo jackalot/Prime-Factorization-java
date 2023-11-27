@@ -5,5 +5,7 @@ public class Factor {
 	public Factor(int First, int Second) {
 		baseNumber = First;
 	}
-	
+	public int GetBaseNumber() {
+		return baseNumber;
+	}
 }
