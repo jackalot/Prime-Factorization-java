@@ -4,6 +4,7 @@ public class Start {
 	{
 		String message = "Please enter a number";
 		int startNumber = Integer.parseInt(JOptionPane.showInputDialog(message));
-		
+		Factor newFactor = new Factor(startNumber, 1);
+		JOptionPane.showMessageDialog(null, newFactor.GetBaseNumber());
 	}
 }
